@@ -25,7 +25,7 @@ const obfuscatorEmail = require('obfuscator-email');
 const obfuscateEmail = obfuscatorEmail('onildo.aguiar@gmail.com');
 ```
 
-##### With options
+#### With options
 ```js
 const obfuscatorEmail = require('obfuscator-email');
 
