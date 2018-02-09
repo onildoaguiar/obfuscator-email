@@ -10,8 +10,10 @@ This module will to obfuscate email addresses with *'s.
 
 ##### Example
 
-Email: onildo.aguiar@gmail.com
-Obfuscate Email: on*****@gmail.com
+```js
+email: onildo.aguiar@gmail.com
+obfuscateEmail: on*****@gmail.com
+```
 
 ## Usage
 
@@ -20,7 +22,7 @@ Obfuscate Email: on*****@gmail.com
 const obfuscatorEmail = require('obfuscator-email');
 
 // Default values
-const obfuscateEmail = obfuscatorEmail('onildo@gmail.com');
+const obfuscateEmail = obfuscatorEmail('onildo.aguiar@gmail.com');
 ```
 
 ##### With options
@@ -28,7 +30,7 @@ const obfuscateEmail = obfuscatorEmail('onildo@gmail.com');
 const obfuscatorEmail = require('obfuscator-email');
 
 // With options
-const obfuscateEmail = obfuscatorEmail('onildo@gmail.com', { numberOfAsteriks: 3, numberOfCharacters: 3 });
+const obfuscateEmail = obfuscatorEmail('onildo.aguiar@gmail.com', { numberOfAsteriks: 3, numberOfCharacters: 3 });
 ```
 
 # License
