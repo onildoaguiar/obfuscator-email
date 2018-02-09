@@ -5,8 +5,8 @@ const NUMBER_OF_CHARACTERS = 2;
 
 module.exports = (email, options) => {
     let emailObfuscate = '';
-    let numberOfAsteriks = options ? options.numberOfAsteriks : NUMBER_OF_ASTERIKS;
-    let numberOfCharacters = options ? options.numberOfCharacters : NUMBER_OF_CHARACTERS;
+    let numberOfAsteriks = options && options.numberOfAsteriks ? options.numberOfAsteriks : NUMBER_OF_ASTERIKS;
+    let numberOfCharacters = options && options.numberOfCharacters ? options.numberOfCharacters : NUMBER_OF_CHARACTERS;
 
     try {
         const parts = email.split('@');

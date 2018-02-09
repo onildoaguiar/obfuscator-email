@@ -14,4 +14,10 @@ describe('Obfuscator Email', () => {
 
         expect(obfuscateEmail).toEqual('oni***@gmail.com');
     });
+
+    it('should return obfuscate email equal to "n*****@gmail.com"', () => {
+        const obfuscateEmail = ObfuscatorEmail('nil@gmail.com', { numberOfCharacters: 4 });
+
+        expect(obfuscateEmail).toEqual('n*****@gmail.com');
+    });
 });
