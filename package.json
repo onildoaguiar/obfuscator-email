@@ -1,0 +1,27 @@
+{
+  "name": "obfuscator-email",
+  "version": "1.0.0",
+  "description": "Obfuscates email addresses with *'s.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onildoaguiar/obfuscator-email.git"
+  },
+  "keywords": [
+    "javascript",
+    "obfuscator",
+    "email"
+  ],
+  "author": "Onildo Aguiar <onildo.aguiar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onildoaguiar/obfuscator-email/issues"
+  },
+  "homepage": "https://github.com/onildoaguiar/obfuscator-email#readme",
+  "dependencies": {
+    "jest": "^22.2.2"
+  }
+}
