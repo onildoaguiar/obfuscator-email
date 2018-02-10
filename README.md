@@ -1,8 +1,7 @@
 # About
 Obfuscates email addresses with *'s.
 
-[![NPM](https://nodei.co/npm/obfuscator-email.png)]
-(https://nodei.co/npm/obfuscator-email/)
+[![NPM](https://nodei.co/npm/obfuscator-email.png)](https://nodei.co/npm/obfuscator-email/)
 
 ## Purpose?
 

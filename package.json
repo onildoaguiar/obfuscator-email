@@ -1,6 +1,6 @@
 {
   "name": "obfuscator-email",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Obfuscates email addresses with *'s.",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,8 @@
     "url": "https://github.com/onildoaguiar/obfuscator-email/issues"
   },
   "homepage": "https://github.com/onildoaguiar/obfuscator-email#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "jest": "^22.2.2"
   }
 }
