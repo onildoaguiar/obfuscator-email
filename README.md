@@ -29,7 +29,7 @@ const obfuscateEmail = obfuscatorEmail('onildo.aguiar@gmail.com');
 const obfuscatorEmail = require('obfuscator-email');
 
 // With options
-const options = { numberOfAsteriks: 3, numberOfCharacters: 3 };
+const options = { numberOfAsteriks: 3, numberOfCharacters: 3, withDomainObfuscated: true};
 const obfuscateEmail = obfuscatorEmail('onildo.aguiar@gmail.com', options);
 ```
 
