@@ -9,7 +9,7 @@ module.exports = (email, options) => {
     let parts = [];
     const numberOfAsteriks = options && options.numberOfAsteriks ? options.numberOfAsteriks : NUMBER_OF_ASTERIKS;
     const numberOfCharacters = options && options.numberOfCharacters ? options.numberOfCharacters : NUMBER_OF_CHARACTERS;
-    const withDomainObfuscate = options && options.withDomainObfuscated ? options.withDomainObfuscated : WITH_DOMAIN_OBFUSCATED;
+    const withDomainObfuscated = options && options.withDomainObfuscated ? options.withDomainObfuscated : WITH_DOMAIN_OBFUSCATED;
 
     try {
         parts = email.split('@');
@@ -25,7 +25,7 @@ module.exports = (email, options) => {
             asteriks += '*';
         }
         
-        if (withDomainObfuscate){
+        if (withDomainObfuscated){
             emailObfuscate = `${parts[0].substring(0, endPosition)}${asteriks}@${parts[1].substring(0, domainEndPosition)}${asteriks}`;
         } else {
             emailObfuscate = `${parts[0].substring(0, endPosition)}${asteriks}@${parts[1]}`;
